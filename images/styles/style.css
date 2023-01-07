@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header background */
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url("/images/header_bg.png"), url("/images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 226px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 51px;
+}
+
+.btn-primary {
+    height: 64px;
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    padding: 18px 35px 19px 36px;
+    font-weight: 700;
+}
+
+
+/* banner styles */
+.banner {
+    margin: 0 226px;
+    display: flex;
+    align-items: center;
+}
+
+.banner h3 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section style */
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 156px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+
+}
+
+.section-description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.information p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+.information h4 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    text-align: center;
+}
+
+/* what-i-do section */
+/* .what-i-do {} */
+
+.section-title {
+    margin-top: 130px;
+}
+
+.section-description-wid {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin: 30px 115px 50px;
+}
+
+.skills {
+    display: flex;
+    gap: 24px;
+
+}
+
+.specific-skill {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.specific-skill img {
+    margin-bottom: 30px;
+}
+
+.skill-name {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* Resume Section */
+
+.resume-container {
+    display: flex;
+    gap: 71px;
+    margin-top: 113px;
+}
+
+.education>h4 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.education-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+}
+
+.university-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.edu-des {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.education hr {
+    margin: 30px 0;
+}
+
+.resume-btn {
+    text-align: center;
+    margin: 50px 0 113px 0;
+}
+
+
+/* Footer Section */
+
+.footer {
+    background-color: #FFF8F3;
+    height: 780px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 117px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.social-media {
+    margin-top: 130px;
+}
+
+.social-media>h3 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.social-media p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.media-icon {
+    display: flex;
+    gap: 24px;
+}
+
+.msg-form {
+    margin-top: 130px;
+}
+
+.msg-form h3 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+#name, #email, #description {
+    width: 461px;
+    height: 64px;
+    border: none;
+    margin-bottom: 24px;
+}
